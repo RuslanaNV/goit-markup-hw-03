@@ -10,6 +10,17 @@
 
 }
 
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
@@ -21,7 +32,18 @@ body {
 }
 .link {
     text-decoration: none;
+
 }
+
+.container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+
 /*HEADER*/
 .list-nav .link.current {
     color: var(--pressed-state-color);
