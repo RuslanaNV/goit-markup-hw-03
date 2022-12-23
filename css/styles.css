@@ -1,0 +1,237 @@
+
+:root {
+    --accent-color: #E7E9FC;
+    --light-mode-color: #F4F4FD;
+    --secondery-text-color: #FFFFFF;
+    --headings-text-color: #2E2F42;
+    --pressed-state-color:#404BBF;
+    --primaru-brand-color: #4D5AE5;
+    --main-text-color: #434455;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+}
+
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/*HEADER*/
+.list-nav .link.current {
+    color: var(--pressed-state-color);
+}
+
+/*--------LOGO--------*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primaru-brand-color);
+    text-decoration: none;
+}
+.studio-nav {
+    color: var(--headings-text-color);
+} 
+.studio-footer{
+    color: var(--light-mode-color)
+}
+
+
+/*------NAV HEADER-------*/
+
+.navigation .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    text-decoration: none;
+    
+    /* NAVY BLUE */
+    color: var(--headings-text-color);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+    color: var(--pressed-state-color);
+}
+
+/*------CONTACT------*/ 
+
+.contact {
+    font-size: 16px;
+    line-height: 1,5;
+/* SLATE */
+    color: var(--main-text-color);
+}
+.contact:hover,
+.contact:focus {
+/* OCEAN */
+    color: var(--pressed-state-color);
+}
+
+/*--------HERO-------*/
+
+.hero {
+    background-color: var(--headings-text-color)
+}
+.hero .title {
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    color: var(--secondery-text-color);
+}
+
+/*------BTN------*/
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    cursor:pointer
+}
+
+.hero .btn {
+    background-color: var(--primaru-brand-color);
+    color: var(--secondery-text-color);
+}
+
+.hero .btn:hover, 
+.hero .btn:focus {   
+    background-color: var(--pressed-state-color);
+    color: var(--secondery-text-color);
+}
+
+/*-----SECTION------*/
+
+.section .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    /* NAVY BLUE */
+    color: var(--headings-text-color);
+    
+}
+.text {
+    font-size: 16px;
+    line-height: 1,5;
+}    
+.section .text {    
+     /* SLATE */
+    color: var(--main-text-color);
+}
+
+/*--------FEATURES--------*/
+
+
+.features .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+
+}
+
+.team {
+    background-color: var(--light-mode-color);
+}
+
+.team .caption {
+    background-color: var(--secondery-text-color);
+}
+
+.team .caption {
+    font-size: 36px;
+    line-height: 1,11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--headings-text-color);
+}
+
+.team .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    text-align: center;
+    /* NAVY BLUE */
+    color: var(--headings-text-color);
+}
+
+.team .after-title {
+    font-size: 16px;
+    line-height: 1,5;
+    text-align: center;
+    /* SLATE */
+    color: var(--main-text-color);
+}
+
+/*-------FOOTER-------*/
+
+.footer {
+    background-color: var(--headings-text-color);
+}
+ 
+.footer .text {
+    /* CORNFLOWER */
+    color: var(--accent-color);
+}
+
+/*---------------PORTFOLIO------------------*/
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
+
+/*--------BTN-------*/
+.caption .btn {
+    /* IRIS */
+    color: var(--primaru-brand-color);
+    background-color: var(--light-mode-color)
+}
+.caption .btn:hover,
+.caption .btn:focus,
+.caption .btn:active {
+    background-color: var(--pressed-state-color);
+    color: var(--secondery-text-color);
+}
+/*----------CONTENT---------*/
+.content .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    /* NAVY BLUE */
+    color: var(--headings-text-color);
+}
+.content .text {
+    /* SLATE */
+    color: var(--main-text-color);
+}
