@@ -39,8 +39,7 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right:  auto;
-    margin-left: auto;
+    margin:0  auto;
 
     outline: 1px solid red;
     
@@ -70,6 +69,11 @@ body {
     color: var(--primaru-brand-color);
     text-decoration: none;
 }
+
+.navigation .logo {
+    margin-right: 76px;
+}
+
 .studio-nav {
     color: var(--headings-text-color);
 } 
@@ -78,7 +82,30 @@ body {
 }
 
 
+
+
 /*------NAV HEADER-------*/
+
+.header > .container {
+    display: flex;
+    align-items: center;
+}
+
+.list-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center; 
+    margin-right: auto;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px; 
+}
 
 .navigation .link {
     font-weight: 500;
@@ -267,6 +294,10 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    }
+
+    .section-main {
+        padding-top: 96px;
     }
 
 
