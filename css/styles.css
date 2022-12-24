@@ -39,12 +39,20 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-right:  auto;
+    margin-left: auto;
+
     outline: 1px solid red;
+    
 }
 
 
 /*HEADER*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .list-nav .link.current {
     color: var(--pressed-state-color);
 }
@@ -103,13 +111,20 @@ body {
 /*--------HERO-------*/
 
 .hero {
-    background-color: var(--headings-text-color)
+    background-color: var(--headings-text-color);
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 .hero .title {
     font-size: 56px;
     line-height: 1,07;
     text-align: center;
     color: var(--secondery-text-color);
+
+    margin-bottom: 48px;
+    
 }
 
 /*------BTN------*/
@@ -130,6 +145,7 @@ body {
 .hero .btn {
     background-color: var(--primaru-brand-color);
     color: var(--secondery-text-color);
+
 }
 
 .hero .btn:hover, 
@@ -140,6 +156,11 @@ body {
 
 /*-----SECTION------*/
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section .title {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -147,6 +168,8 @@ body {
     line-height: 1,2;
     /* NAVY BLUE */
     color: var(--headings-text-color);
+
+    margin-bottom: 8px;
     
 }
 .text {
@@ -160,6 +183,10 @@ body {
 
 /*--------FEATURES--------*/
 
+.features {
+
+    padding-bottom: 120px;
+}
 
 .features .title {
     font-weight: 700;
@@ -173,6 +200,9 @@ body {
 
 .team {
     background-color: var(--light-mode-color);
+
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .team .caption {
@@ -208,11 +238,18 @@ body {
 
 .footer {
     background-color: var(--headings-text-color);
+
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
  
 .footer .text {
     /* CORNFLOWER */
     color: var(--accent-color);
+}
+
+.footer .logo {
+    margin-bottom: 16px;
 }
 
 /*---------------PORTFOLIO------------------*/
