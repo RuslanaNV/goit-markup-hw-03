@@ -21,6 +21,12 @@ ul {
     padding-left: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
@@ -39,19 +45,23 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin:0  auto;
+    margin-right: auto;
+    margin-left: auto;
 
-    outline: 1px solid red;
-    
+    /*outline: 1px solid red;*/
 }
+    
 
 
 /*HEADER*/
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
+    background-color: var(--secondery-text-color);
+/* CORNFLOWER */
+    border-bottom: 1px solid var(--accent-color);
 }
+
 .list-nav .link.current {
     color: var(--pressed-state-color);
 }
@@ -80,7 +90,6 @@ body {
 .studio-footer{
     color: var(--light-mode-color)
 }
-
 
 
 
@@ -115,6 +124,10 @@ body {
     
     /* NAVY BLUE */
     color: var(--headings-text-color);
+
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -143,6 +156,7 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
 
+    text-align: center;
 }
 .hero .title {
     font-size: 56px;
@@ -151,7 +165,7 @@ body {
     color: var(--secondery-text-color);
 
     margin-bottom: 48px;
-    
+
 }
 
 /*------BTN------*/
@@ -161,9 +175,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    /*display: flex;*/
+    /*align-items: center;
+    text-align: center;*/
     letter-spacing: 0.04em;
 
     cursor:pointer
@@ -172,6 +186,15 @@ body {
 .hero .btn {
     background-color: var(--primaru-brand-color);
     color: var(--secondery-text-color);
+
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 19px;
+    padding-left: 32px;
+    display: inline-block;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
 }
 
@@ -186,6 +209,12 @@ body {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.section .list {
+    display: flex;
+    gap: 24px;
+    
 }
 
 .section .title {
@@ -211,7 +240,7 @@ body {
 /*--------FEATURES--------*/
 
 .features {
-
+    padding-top: 0;
     padding-bottom: 120px;
 }
 
@@ -223,6 +252,18 @@ body {
     text-transform: capitalize;
     color: var(--headings-text-color);
 
+    margin-bottom: 72px;
+
+}
+
+.features .list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    border: 1px solid #E7E9FC;
+    width: calc((100% - 48px) / 3);
 }
 
 .team {
@@ -233,15 +274,13 @@ body {
 }
 
 .team .caption {
-    background-color: var(--secondery-text-color);
-}
-
-.team .caption {
     font-size: 36px;
     line-height: 1,11;
     text-align: center;
     text-transform: capitalize;
     color: var(--headings-text-color);
+
+    margin-bottom: 72px;
 }
 
 .team .title {
@@ -251,6 +290,22 @@ body {
     text-align: center;
     /* NAVY BLUE */
     color: var(--headings-text-color);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.team-card{
+    padding: 32px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team .after-title {
@@ -277,10 +332,22 @@ body {
 
 .footer .logo {
     margin-bottom: 16px;
+
+    
 }
 
 /*---------------PORTFOLIO------------------*/
 
+.section-main {
+    padding-bottom: 120px;
+}
+
+.caption {
+    display: flex;
+    margin-bottom: 72px;
+    justify-content: center;
+    gap: 24px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -305,7 +372,10 @@ body {
 .caption .btn {
     /* IRIS */
     color: var(--primaru-brand-color);
-    background-color: var(--light-mode-color)
+    background-color: var(--light-mode-color);
+
+    padding: 12px 24px;
+    
 }
 .caption .btn:hover,
 .caption .btn:focus,
@@ -324,4 +394,22 @@ body {
 .content .text {
     /* SLATE */
     color: var(--main-text-color);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.content-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.content-card {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    border: 1px solid #E7E9FC;
+    border-top: 0;
 }
