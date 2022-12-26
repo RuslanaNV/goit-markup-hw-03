@@ -165,6 +165,10 @@ body {
     color: var(--secondery-text-color);
 
     margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 553px;
 
 }
 
