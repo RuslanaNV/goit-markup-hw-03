@@ -132,7 +132,7 @@ body {
 .navigation .link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-decoration: none;
     
     /* NAVY BLUE */
@@ -151,7 +151,7 @@ body {
 
 .contact {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
 /* SLATE */
     color: var(--main-text-color);
 
@@ -176,12 +176,14 @@ body {
 }
 .hero .title {
     font-size: 56px;
-    line-height: 1,07;
-    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--secondery-text-color);
 
     margin-bottom: 48px;
-    max-width: 496px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*------BTN------*/
@@ -190,7 +192,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     /*display: flex;*/
     /*align-items: center;
     text-align: center;*/
@@ -234,7 +236,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     /* NAVY BLUE */
     color: var(--headings-text-color);
 
@@ -243,7 +245,7 @@ body {
 }
 .text {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     min-width: 264px;
 }    
@@ -262,7 +264,7 @@ body {
 .features .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: var(--headings-text-color);
@@ -290,7 +292,7 @@ body {
 
 .team .caption {
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: var(--headings-text-color);
@@ -301,7 +303,7 @@ body {
 .team .title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     text-align: center;
     /* NAVY BLUE */
     color: var(--headings-text-color);
@@ -327,7 +329,7 @@ body {
 
 .team .after-title {
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: center;
     /* SLATE */
     color: var(--main-text-color);
@@ -409,7 +411,7 @@ body {
 .content .title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
+    line-height: 1.2;
     /* NAVY BLUE */
     color: var(--headings-text-color);
 
